@@ -9,7 +9,6 @@ public class Main {
     public static void main(String[] args) {
         UserServiceImpl lol = new UserServiceImpl();
         lol.createUsersTable();
-        System.out.println("lol");
         lol.saveUser("Иван","Сафронов", (byte) 23);
         lol.saveUser("Boris","Jonson", (byte) 46);
         lol.saveUser("Vladimir","Putin", (byte) 71);
